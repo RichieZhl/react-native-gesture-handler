@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'react-native-gesture-handler_Example' do
+  pod 'react-native-gesture-handler', :path => '../'
+
+  target 'react-native-gesture-handler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
