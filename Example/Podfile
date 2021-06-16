@@ -1,6 +1,10 @@
 use_frameworks!
 
-platform :ios, '9.0'
+source 'https://github.com/RichieZhl/Spec.git'
+source 'http://git.dev.qianmi.com/adminapp/qmspec-ios.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
 
 target 'react-native-gesture-handler_Example' do
   pod 'react-native-gesture-handler', :path => '../'
